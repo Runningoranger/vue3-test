@@ -11,5 +11,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['vue', '@typescript-eslint'],
-  rules: {},
+  rules: {
+    'linebreak-style': [0, 'windows'],
+  },
 };
